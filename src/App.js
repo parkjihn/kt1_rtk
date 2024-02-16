@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import styles from "./App.css";
+import AboutUs from "./components/AboutUs/AboutUs";
+import Header from "./components/Header/Header";
+
+import Offers from "./components/Offers/Offers";
+import Rent from "./components/Rent/Rent";
+import ThirdBlock from "./components/ThirdBlock/ThirdBlock";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={styles.general}>
+      <Header />
+
+      <AboutUs state="1"/>
+      <AboutUs state="2"/>
+      
+      <ThirdBlock/>
+      
+      <div className="offerBox">
+      <Offers state="TO" />
+      <Offers state="Tires" />
+      <Offers state="Adjust" />
+      </div>
+     
+
+  
+
+      <Rent/>
     </div>
   );
 }

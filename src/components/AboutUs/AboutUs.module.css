@@ -1,0 +1,72 @@
+
+.state_1 {
+    background-color: #f5fae3;
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: space-between; 
+    text-align: center;
+   
+}
+
+
+.state_1 .title {
+    color: #233670ff;
+
+    font-size: 40px;
+   
+}
+
+.state_1 .titleBox {
+    flex-grow: 1;
+}
+
+.state_1 .text {
+    color: #233670ff;
+    font-size: 20px;
+    flex-grow: 2;
+}
+
+.state_1 .img {
+    flex-grow: 1;
+}
+
+
+.state_2 {
+    background-color: #62cfdeff;
+    display: flex;
+    
+    align-items: center; 
+    text-align: center;
+   
+}
+
+
+.state_2 .title {
+    color: #233670ff;
+
+    font-size: 40px;
+   
+}
+
+.state_2 .text {
+    color: #233670ff;
+    font-size: 20px;
+}
+
+
+.state_3 {
+    height: 400px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.state_4 {
+    display: flex;
+
+}
+
+.state_4 img {
+    justify-content: left;
+}

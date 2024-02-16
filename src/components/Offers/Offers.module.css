@@ -1,0 +1,24 @@
+
+.topBorder {
+    border-top: 2px solid white;
+    padding-top: 70px;
+    padding-left: 40px;
+}
+
+.state_1{
+    background-color: #233670ff;
+   flex: 1;
+   
+}
+
+
+
+.state_2{
+    background-color: #0051c2ff;
+    flex: 1;
+}
+
+.state_3{
+    background-color: #76b58bff;
+    flex: 1;
+}
